@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+<title>dashboard</title>
+<style>
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url("quiz_bg3.png"); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}    
+
+
+.header {
+  background-color: #FFDAB9;
+  padding: 20px;
+  text-align: center;
+  width: 97%;
+  text-align: center;
+  height: 100px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+        
+.box {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 60px;
+  font-weight: bold;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  font-family: fantasy; 
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.box-item {
+  flex: 1;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #FFDAB9;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 10px;
+  height: 420px;
+  font-family: Courier New;
+}
+
+.submitBtn{
+   margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 5px solid black;
+    color: #1f2833;
+    background-color: #FFDAB9;
+    position: absolute;
+    bottom: 0;
+    Right: 0;
+}
+
+</style>
+</head>
+<body>
+ <div class="header">
+        <div class="box">Fun Quiz</div>
+ </div>
+ <div class="container">
+    <div class="box-item">
+    <a href="QUIZ.html" style="text-decoration: none; color: inherit;">
+    <b><span style="font-family: Courier New; font-size: 30px;">Level 1</span></b>
+    <br>
+    <br>
+    <br>
+    The level contains 5 questions about the countries.
+    There will not be any timer.
+    You will get result with correct answers and score at the end.
+    <br>
+    <br>
+    Enjoy the Quiz!!
+    </a>
+    </div>
+    <div class="box-item">
+    <a href="indexx.html" style="text-decoration: none; color: inherit;">
+    <b><span style="font-family: Courier New; font-size: 30px;"> Level 2</span></b>
+    <br>
+    <br>
+    <br>
+    This is a Word Hint Quiz containing total 8 questions.You have to fill in the blanks and complete the word
+    <br>
+    <br>
+    <br>
+    Enjoy The Quiz!!
+    </a>
+    </div>
+    <div class="box-item">
+    <a href="C:\Users\Dell\level 3 with everything needed ;) (1)\quiz\quiz3.html" style="text-decoration: none; color: inherit;">
+    <b><span style="font-family: Courier New; font-size: 30px;">Level 3</span></b>
+    <br>
+    <br>
+    <br>
+    This is a Shadow Quiz containing 5 questions.Its 'Guess The Country' Quiz.There will be timer for each question and
+    hint will be given.
+    <br>
+    <br>
+    Enjoy The Quiz!!
+    </a>
+    </div>
+ </div>
+ <button class="submitBtn" onclick="openSpinWheel()">button</button>
+
+  <script>
+    function openSpinWheel() {
+      // Redirect to the spin_wheel.html page
+      window.location.href = "spin_wheel.html";
+    }
+  </script>
+
+
+</body>
+</html>
